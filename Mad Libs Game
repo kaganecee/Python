@@ -1,0 +1,18 @@
+#Mad Libs Game
+#1.iyelik eki kullanarak bir organ giriniz.
+Organ = input("1.iyelik eki kullanarak bir organ giriniz:")
+#Geçmiş zaman eki ve 1.iyelik eki kullanarak bir fiil giriniz.
+Fiil = input("Geçmiş zaman eki ve 1.iyelik eki kullanarak bir fiil giriniz:")
+#Soğuktan korunmanızı sağlayan bir eşya yazınız.
+Esya = input("Soğuktan korunmanızı sağlayan bir eşya yazınız:").lower()
+#Bir zaman ifadesi kullanınız.
+Zaman = input("Bir zaman ifadesi kullanınız:").lower()
+#Evinizdeki bir aracı giriniz. ( Örneğin : Duvar,kapı,pencere... )
+Arac = input("3.İyelik eki kullanarak evinizdeki bir aracı giriniz. ( Örneğin : Duvar,kapı,pencere... ):")
+
+
+print( Organ + " karanlık odalara hapsoldu")
+print( Fiil + " umutlarımın savaşında")
+print("Hislerimin üzerinde bir " + Esya )
+print("Gözlerim kapanıyor her " + Zaman)
+print( Arac + " yok oldu ruhumun,beni alevlendiren güneşin gidişiyle")
