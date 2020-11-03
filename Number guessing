@@ -1,0 +1,15 @@
+import random
+tries=1
+randomNumber = random.randint(1, 100)
+userGuess = int(input("Guess a random number between 1 and 100..:"))
+if (randomNumber == userGuess):
+    print("Congratulations , your guess", randomNumber,"is correct! You found it after",tries,"tries.")
+else:
+    while (randomNumber != userGuess):
+        tries=tries+1
+        if (randomNumber > userGuess):
+            userGuess = int(input("Your guess lesser than random number,try again:"))
+        elif (randomNumber < userGuess):
+            userGuess = int(input("Your guess greater than random number,try again:"))
+    if (randomNumber == userGuess):
+        print("Congratulations , your guess", randomNumber,"is correct! You found it after",tries,"tries.")
