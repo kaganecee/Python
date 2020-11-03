@@ -1,0 +1,7 @@
+number=int(input("Please enter a number...\nif you enter -1, the program ends:"))
+minNumber=number
+while ( number != -1):
+    number = int(input("Please enter a number..:"))
+    if(number<minNumber and number!=-1):
+        minNumber=number
+print(minNumber)
